@@ -1,0 +1,89 @@
+.calculator{
+    width: 33rem;
+    display: flex;
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    padding: 1rem;
+    background-color: lightsteelblue;
+                        }
+.monitor{
+    flex: 0 0 95%;
+    background-color: white;
+    font-size: 2rem;
+    border: solid 2px black;
+    height: 5.2rem;
+    padding-left: 1rem;
+}
+.btn-group{
+    flex: 0 0 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+.number{
+    padding-top: 1.2rem;
+    text-align: center;
+    height: 5.8rem;
+    width: 4.7rem;
+    font-size: 1.5rem;
+    background-color: lightgray;
+    margin: 0.5rem;
+    border: solid 2px black;
+}
+.operator-group{
+    margin-top: 1rem;
+    flex: 0 0 19%;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+.operator{
+    text-align: center;
+    padding-top: 0.2rem;
+    background-color: grey;
+    font-size: 2rem;
+    margin: 0.3rem;
+    height: 3.5rem;
+    width: 6rem;
+    border: solid 2px black;
+}
+
+.number:focus, .number:active,
+.operator:focus, .operator:active,
+.btn--enter:focus, .btn--enter:active,
+.btn--ac:focus, .btn--ac:active{
+    transform: translateY(3px);
+}
+.btn--enter{
+    background-color: lightblue;
+    margin: 0.3rem;
+    height: 3.6rem;
+    width: 6rem;
+    text-align: center;
+    font-size: 2rem;
+    border: solid 2px black;
+}
+.btn--ac{
+    padding-top: 1.2rem;
+    text-align: center;
+    height: 5.8rem;
+    width: 4.7rem;
+    font-size: 1.5rem;
+    background-color: pink;
+    margin: 0.5rem;
+    border: solid 2px black;
+
+}
+.btn--decimal{
+    padding-top: 1.2rem;
+    text-align: center;
+    height: 5.8rem;
+    width: 4.7rem;
+    font-size: 1.5rem;
+    background-color: lightgray;
+    margin: 0.5rem;
+    border: solid 2px black;
+}
