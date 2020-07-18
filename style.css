@@ -1,54 +1,78 @@
 .calculator{
-    width: 33rem;
+    width: 21rem;
     display: flex;
-    margin: 3rem;
+    margin:1rem;
     display: flex;
     flex-wrap: wrap;
-    border: solid 2px black;
     padding: 1rem;
-    background-color: lightsteelblue;
-                        }
+    background-color:  #333333;
+    font-family:Arial;
+    border-radius: 5px;
+    background:linear-gradient(to bottom, 
+    #69FF97 5%,#00E4FF 100%);
+    -webkit-box-shadow: 6px -1px 36px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px -1px 36px 0px rgba(0,0,0,0.75);
+box-shadow: 6px -1px 36px 0px rgba(0,0,0,0.75);
+}
 .monitor{
-    flex: 0 0 95%;
+    padding: 0.5rem 1rem;
+    flex: 0 0 89%;
     background-color: white;
     font-size: 2rem;
-    border: solid 2px black;
-    height: 5.2rem;
-    padding-left: 1rem;
+    height: 4rem;
+    color:#444444;
+    border-radius: 5px;
+    margin-bottom: 0.6rem;
 }
 .btn-group{
-    flex: 0 0 75%;
+    flex: 0 0 77%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-top: 1rem;
+
 }
-.number{
-    padding-top: 1.2rem;
+.number, .btn--decimal,.btn--ac{
+    height: 3.5rem;
+    width: 4.8rem;
     text-align: center;
-    height: 5.8rem;
-    width: 4.7rem;
-    font-size: 1.5rem;
-    background-color: lightgray;
-    margin: 0.5rem;
-    border: solid 2px black;
+    padding-top: 1.2rem;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background: grey;
+	background-color:#ffffff;
+	border-radius:3px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-size: 1.5rem;
+	font-weight:bold;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #333333;
+    margin:0.2rem;
 }
 .operator-group{
-    margin-top: 1rem;
-    flex: 0 0 19%;
+    margin:0.1rem;
+    flex: 0 0 20%;
     justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
 }
-.operator{
+.operator,.btn--enter{
+    padding-top: 1rem;
     text-align: center;
-    padding-top: 0.2rem;
-    background-color: grey;
-    font-size: 2rem;
-    margin: 0.3rem;
-    height: 3.5rem;
-    width: 6rem;
-    border: solid 2px black;
+    height: 2.8rem;
+    width: 4.1rem;
+	background-color:#787878;
+	border-radius:3px;
+	border:1px solid #787878;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-size: 1.5rem;
+	font-weight:bold;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #333333;
+    margin:.1rem
+
 }
 
 .number:focus, .number:active,
@@ -57,33 +81,4 @@
 .btn--ac:focus, .btn--ac:active{
     transform: translateY(3px);
 }
-.btn--enter{
-    background-color: lightblue;
-    margin: 0.3rem;
-    height: 3.6rem;
-    width: 6rem;
-    text-align: center;
-    font-size: 2rem;
-    border: solid 2px black;
-}
-.btn--ac{
-    padding-top: 1.2rem;
-    text-align: center;
-    height: 5.8rem;
-    width: 4.7rem;
-    font-size: 1.5rem;
-    background-color: pink;
-    margin: 0.5rem;
-    border: solid 2px black;
 
-}
-.btn--decimal{
-    padding-top: 1.2rem;
-    text-align: center;
-    height: 5.8rem;
-    width: 4.7rem;
-    font-size: 1.5rem;
-    background-color: lightgray;
-    margin: 0.5rem;
-    border: solid 2px black;
-}
