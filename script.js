@@ -11,7 +11,7 @@ let monitorShow = document.getElementById('monitor');
 
 init();
 
-function init(){
+const init = () =>{
     monitorShow.textContent = '0';
     numbers = [0,0];
     operator = '';
@@ -21,11 +21,9 @@ function init(){
     currentIndex = 0;
 }
 
-function setNumbers(){
-    numbers[currentIndex] = monitorShow.textContent;
-}
+const setNumbers = () => numbers[currentIndex] = monitorShow.textContent;
 
-function storeDecimal(value){
+const storeDecimal = value =>{
     if(decimalCount== 0 && enterCount == 0){
         decimalCount = 1;
         currentNumber += value.toString();
@@ -37,7 +35,7 @@ function storeDecimal(value){
     monitorShow.textContent= currentNumber;
 }
 
-function setCurrentNumber(value){
+const setCurrentNumber = value =>{
 
     if(currentNumber != '0' && enterCount== 0){
         currentNumber += value.toString();
@@ -53,7 +51,7 @@ function setCurrentNumber(value){
     monitorShow.textContent= currentNumber;
 }
 
-function setOperator(opt){
+const setOperator = opt =>{
     operator = opt;
     setNumbers();
     monitorShow.textContent= opt;
@@ -62,7 +60,7 @@ function setOperator(opt){
     decimalCount = 0;
 }
 
-function calculation(){
+const calculation = () => {
 
     if(operator != ''){
         setNumbers();
