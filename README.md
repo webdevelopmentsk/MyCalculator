@@ -40,7 +40,7 @@ To get a local copy of the project follow these steps.
 
 ## Contact
 
-Sawitree Kalakul - [LinkedIn](www.linkedin.com/in/sawitree-kalakul) - skalakul@gmail.com
+Sawitree Kalakul - [LinkedIn](https://www.linkedin.com/in/sawitree-kalakul) - skalakul@gmail.com
 
 Project Link: [https://github.com/webdevelopmentsk/mini-project-simple-calculator.git](https://github.com/webdevelopmentsk/mini-project-simple-calculator.git)
 
