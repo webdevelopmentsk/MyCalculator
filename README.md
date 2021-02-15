@@ -2,6 +2,8 @@
 
 [![Simple Calculator Screen Shot][product-screenshot]](https://github.com/webdevelopmentsk/mini-project-simple-calculator/blob/master/app.png)
 
+![Simple Calculator Screen Shot](/app.png)
+
 I have created this simple calculator when I started learning JavaScript in June 2020. The code is eary for beginners to understand and experiment with JavaScript Fundamentals such as:
 
 * Code structure
