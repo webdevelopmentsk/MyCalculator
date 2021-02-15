@@ -1,11 +1,6 @@
-# MyCalculator (Pure JavaScript)
-![Image of Yaktocat](https://github.com/webdevelopmentsk/MyCalculator/blob/master/app.png)
-
-I created this calculator when I started to learn JavaScript. I wanted practice using functions and variable declarations. The JavaScript code is stored in script.js.
-
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Simple Calculator Screen Shot][product-screenshot]](https://github.com/webdevelopmentsk/mini-project-simple-calculator/blob/master/app.png)
 
 I have created this simple calculator when I started learning JavaScript in June 2020. The code is eary for beginners to understand and experiment with JavaScript Fundamentals such as:
 
